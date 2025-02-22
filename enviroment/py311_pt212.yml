@@ -1,0 +1,31 @@
+name: py311_pt212
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.11
+  - pytorch=2.1.2
+  - torchvision
+  - pytorch-cuda=12.1
+  - lightning=2.1
+  - timm
+  - scikit-learn
+  - pandas
+  - pyarrow
+  - polars
+  - munkres
+  - tensorboardx
+  - tensorboard
+  - kornia
+  - ipykernel
+  - matplotlib
+  - python-hdfs
+  - petname
+  - pip
+  - pymongo
+  - pynvml
+  - pip:
+     - git+https://github.com/IDSIA/sacred.git
+
